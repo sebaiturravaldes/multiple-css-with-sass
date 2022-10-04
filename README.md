@@ -9,11 +9,11 @@ Para generar múltiples archivos de salida .css usando node-sass, es necesario i
 ```
 
 ## Primer requisito
-No especificar un archivo de entrada y salida, solo los directorios, y antes del directorio de salida, agregar el parámetro `--output`
+No especificar un archivo de entrada y salida, solo los directorios, y antes del directorio de salida, agregar el parámetro `--output`, como se detalla en el comando anterior.
 
-Con eso ya estamos listo con el primer requisito.
+Con eso, estamos listo con el primer requisito.
 
 ## Segundo requisito
-El segundo requisito es que en tu carpeta de entrada, donde tienes tus archivos [.scss|.sass], los archivos que no quieras incluir en las salidas del CSS, deben comenzar con el `_` (guión bajo)
+En tu carpeta de entrada, donde tienes tus archivos [.scss|.sass], los archivos que no quieras incluir en las salidas del CSS, deben comenzar con el `_` (guión bajo)
 
 Por ejemplo, si quieres excluir un archivo de su salida quedaría algo como: `scss/_button.scss`
