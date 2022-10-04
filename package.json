@@ -8,8 +8,8 @@
     "build-css": "node-sass --include-path scss scss/ --output css/",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["sass", "node-sass", "css"],
+  "author": "Sebastián Iturra",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^7.0.3",
